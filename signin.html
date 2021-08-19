@@ -1,0 +1,58 @@
+
+<head>
+  <link rel="stylesheet" type="text/css" href="user.css" />
+  
+</head>
+ <title>Login</title> 
+<body>
+ <style>
+ style{
+     width: fit-content;
+     height: fit-content;
+ }
+ </style>
+<div class="container" style="background-color:lightblue ;" >
+  
+    <div class="card">
+      <div class="inner-box" id="card">
+        <div class="card-front">
+          <h2>LOGIN</h2>
+          <form action="bus.html">
+            <input type="text" class="input-box " placeholder="email/user Name">
+            <input type="password" class="input-box" placeholder="Password" >
+           <input type="checkbox"><span>Remember Me</span>
+           <div class="buttons">
+            <button class="blob-btn">
+                      <center> Submit</center>
+              <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                  <span class="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
+            <br/>
+          </form>
+          <form action="register.html">
+          <button type="button" class="btn" onclick="document.location='register.html'">I'm New Here</button>
+        </form>
+          <a href="#">Forget Password</a>
+        </div>
+       
+        <div class="card-back">
+          <h2>SIGNUP</h2>
+          <form action="">
+            <input type="text" class="input-box" placeholder="Jhon" required>
+            <input type="email" class="input-box" placeholder="example@mail.com" required>
+            <input type="password" class="input-box" placeholder="Password" required>
+            <button type="submit" class="submit-btn">Submit</button>
+            <input type="checkbox"><span>Remember Me</span>
+          </form>
+          <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+          <a href="#">Forget Password</a>
+        </div>
+      </div>
+    </div>
+  </div>
